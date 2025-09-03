@@ -1,0 +1,126 @@
+ *{
+    margin: 0;
+    padding: 0;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+ }
+
+ html ,body {
+height: 100%;
+width: 100%; 
+   background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+#nav{
+    position: fixed;
+    width: 100%;
+     align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    
+}
+#nav button{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 50px;
+    margin-left: 5px;
+    font-size: -10px;
+ }
+
+#intro{
+    height: 45%;
+    width: 100%;
+   
+
+ 
+}
+#intro h1{
+font-size: 70px;
+line-height: 80px;
+padding: 30px;
+letter-spacing: -1px;
+ 
+}
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px ;
+    margin-right: 40px;
+    
+
+}
+
+  
+ #hero-image{
+
+    height: 80%;
+    width: 100%;
+    background-image: url( https://cdn.prod.website-files.com/64589fb989b2b3e8783db8c8/645cad129d3885d86c115c7f_project-02.webp);
+    background-size: cover;
+  
+    }
+
+#hero-image:hover{
+ transform:translateX(100px);
+   transition: 2s;
+   
+}
+
+#btn:hover {
+    background-color: skyblue;
+      
+}
+#btn{
+    font-family: cursive;
+     transition: 1s;
+}
+
+#about{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+#about h2{
+    
+    font-size: 40px;
+    line-height: 55px;
+}
+
+#about2{
+    border-left: 2px solid #000;
+    height: 100%;
+    width: 35%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about2 h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#icons i {
+     background-color: black;
+     color: white;
+     padding: 7px;
+     font-size: 20px;
+     border-radius: 20px;
+     margin: 5px;
+}
+//2:42
